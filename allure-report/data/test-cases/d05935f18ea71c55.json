@@ -1,0 +1,56 @@
+{
+  "uid" : "d05935f18ea71c55",
+  "name" : "Then Click Register",
+  "fullName" : "User Registration: Click on Sign in button and Register User.Then Click Register",
+  "historyId" : "8b3da8d877021a0d7639fa64ae1ed76c",
+  "time" : {
+    "start" : 1580971122331,
+    "stop" : 1580971122331,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "testClass",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Click Register"
+  }, {
+    "name" : "package",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d05935f18ea71c55.json",
+  "parameterValues" : [ "chrome" ]
+}

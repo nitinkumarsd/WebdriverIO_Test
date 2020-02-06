@@ -1,0 +1,58 @@
+{
+  "uid" : "9a60a3cdef6a4965",
+  "name" : "Given I'm on home page",
+  "fullName" : "User Registration: Click on Sign in button and Register User.Given I'm on home page",
+  "historyId" : "97256f60b149dcb6d1aa977ce8801a74",
+  "time" : {
+    "start" : 1580970948285,
+    "stop" : 1580970948299,
+    "duration" : 14
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot parse [{,  \"firstName\": \"Rack's\",,  \"lastName\": \"Jackon\",,  \"gender\": \"man\",,  \"age\": 24,,  \"address\": [{,    \"streetAddress\": \"126\",,    \"city\": \"San Jone\",,    \"state\": \"CA\",,    \"postalCode\": \"394221\",  }],,  \"phoneNumbers\": ,    [{,      \"type\": \"home\",,      \"number\": \"7383627627\",    }],  ,}]",
+  "statusTrace" : "JSONError: Cannot parse [{,  \"firstName\": \"Rack's\",,  \"lastName\": \"Jackon\",,  \"gender\": \"man\",,  \"age\": 24,,  \"address\": [{,    \"streetAddress\": \"126\",,    \"city\": \"San Jone\",,    \"state\": \"CA\",,    \"postalCode\": \"394221\",  }],,  \"phoneNumbers\": ,    [{,      \"type\": \"home\",,      \"number\": \"7383627627\",    }],  ,}]\n                    at parseJson (C:\\WebDrivIoTest\\node_modules\\parse-json\\index.js:29:21)\n                    at readTextFile (C:\\WebDrivIoTest\\step-definitions/Signin.js:27:18)\n                    at World.<anonymous> (C:\\WebDrivIoTest\\step-definitions/Signin.js:40:5)\n                    at World.executeAsync (C:\\WebDrivIoTest\\node_modules\\@wdio\\utils\\build\\shim.js:123:21)\n                    at World.testFrameworkFnWrapper (C:\\WebDrivIoTest\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:55:28)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "testClass",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I'm on home page"
+  }, {
+    "name" : "package",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a60a3cdef6a4965.json",
+  "parameterValues" : [ "chrome" ]
+}

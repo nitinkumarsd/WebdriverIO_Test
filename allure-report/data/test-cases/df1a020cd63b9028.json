@@ -1,0 +1,158 @@
+{
+  "uid" : "df1a020cd63b9028",
+  "name" : "Then Validate correct name and surname is displayed on landing screen",
+  "fullName" : "User Registration: Click on Sign in button and Register User.Then Validate correct name and surname is displayed on landing screen",
+  "historyId" : "5a3864daf9b2992eb10b91f745e51709",
+  "time" : {
+    "start" : 1580977026403,
+    "stop" : 1580977026441,
+    "duration" : 38
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Promise {\n                  <pending>\n                } == 'Nitin Kumar'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Promise {\n                  <pending>\n                } == 'Nitin Kumar'\n                    at World.<anonymous> (C:\\WebDrivIoTest\\step-definitions/Signin.js:109:16)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at World.executeAsync (C:\\WebDrivIoTest\\node_modules\\@wdio\\utils\\build\\shim.js:123:12)\n                    at World.testFrameworkFnWrapper (C:\\WebDrivIoTest\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:63:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Promise {\n                  <pending>\n                } == 'Nitin Kumar'",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Promise {\n                  <pending>\n                } == 'Nitin Kumar'\n                    at World.<anonymous> (C:\\WebDrivIoTest\\step-definitions/Signin.js:109:16)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at World.executeAsync (C:\\WebDrivIoTest\\node_modules\\@wdio\\utils\\build\\shim.js:123:12)\n                    at World.testFrameworkFnWrapper (C:\\WebDrivIoTest\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:63:14)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1580977026403,
+        "stop" : 1580977026420,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1580977026406,
+          "stop" : 1580977026413,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "76daa5f5eabd1885",
+          "name" : "Request",
+          "source" : "76daa5f5eabd1885.json",
+          "type" : "application/json",
+          "size" : 62
+        }, {
+          "uid" : "696fc582f58cf269",
+          "name" : "Response",
+          "source" : "696fc582f58cf269.json",
+          "type" : "application/json",
+          "size" : 2
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "f4e7e6a0342701a1",
+        "name" : "Request",
+        "source" : "f4e7e6a0342701a1.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "8f5b36a03d55afed",
+        "name" : "Response",
+        "source" : "8f5b36a03d55afed.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1580977026438,
+        "stop" : 1580977026441,
+        "duration" : 3
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError [ERR_ASSERTION]: Promise {\n                  <pending>\n                } == 'Nitin Kumar'\n                    at World.<anonymous> (C:\\WebDrivIoTest\\step-definitions/Signin.js:109:16)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at World.executeAsync (C:\\WebDrivIoTest\\node_modules\\@wdio\\utils\\build\\shim.js:123:12)\n                    at World.testFrameworkFnWrapper (C:\\WebDrivIoTest\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:63:14)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a75aeb46e7ca0b5b",
+        "name" : "Request",
+        "source" : "a75aeb46e7ca0b5b.json",
+        "type" : "application/json",
+        "size" : 87
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "226175f042bf3d4c",
+      "name" : "Response",
+      "source" : "226175f042bf3d4c.json",
+      "type" : "application/json",
+      "size" : 1080
+    }, {
+      "uid" : "18878947e60cb476",
+      "name" : "Response",
+      "source" : "18878947e60cb476.json",
+      "type" : "application/json",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 7,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "testClass",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Validate correct name and surname is displayed on landing screen"
+  }, {
+    "name" : "package",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df1a020cd63b9028.json",
+  "parameterValues" : [ "chrome" ]
+}

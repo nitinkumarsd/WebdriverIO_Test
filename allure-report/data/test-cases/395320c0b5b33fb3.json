@@ -1,0 +1,108 @@
+{
+  "uid" : "395320c0b5b33fb3",
+  "name" : "Then Click Register",
+  "fullName" : "User Registration: Click on Sign in button and Register User.Then Click Register",
+  "historyId" : "8b3da8d877021a0d7639fa64ae1ed76c",
+  "time" : {
+    "start" : 1580977119158,
+    "stop" : 1580977120869,
+    "duration" : 1711
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1580977119159,
+        "stop" : 1580977119181,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "74f596c6e46bbab6",
+        "name" : "Request",
+        "source" : "74f596c6e46bbab6.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "56d6e529f12cd309",
+        "name" : "Response",
+        "source" : "56d6e529f12cd309.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/b450c21a-e7ba-4730-8e98-6d468c877a05/click",
+      "time" : {
+        "start" : 1580977119183,
+        "stop" : 1580977120869,
+        "duration" : 1686
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "testClass",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Click Register"
+  }, {
+    "name" : "package",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "395320c0b5b33fb3.json",
+  "parameterValues" : [ "chrome" ]
+}

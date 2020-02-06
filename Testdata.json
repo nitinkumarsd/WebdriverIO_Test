@@ -1,0 +1,46 @@
+{
+  "URL": "http://automationpractice.com/index.php",
+  "signInButton": "//*[@id='header']/div[2]/div/div/nav/div[1]/a",
+  "emailBox": "#email_create",
+  "createButton": "#SubmitCreate",
+  "custfirstName": "#customer_firstname",
+  "custlastName": "#customer_lastname",
+  "passwd": "#passwd",
+  "day": "#days",
+  "month": "#months",
+  "year": "#years",
+  "gender1": "#id_gender1",
+  "addFirstName": "#firstname",
+  "addLastName": "#lastname",
+  "companyName": "#company",
+  "addLine1": "#address1",
+  "cityAdd": "#city",
+  "stateAdd": "#id_state",
+  "postCode": "#postcode",
+  "countryAdd": "#id_country",
+  "mobileNumber": "#phone_mobile",
+  "addAllias": "#alias",
+  "registerAccount": "#submitAccount",
+  "signedInUser": "//*[@id='header']/div[2]/div/div/nav/div[1]/a/span",
+  
+  "firstNameValue": "Nitin",
+  "lastNameValue": "Kumar",
+  "passValue": "abc@1234567",
+  "firstAddNameValue": "Nitin",
+  "lastaddNameValue": "Kumar",
+  "compValue": "abd tech limited",
+  "addLine1Value": "abc tech limited, B Block",
+  "cityName": "Falcon",
+  "stateName": "Virginia",
+  "zipCodeValue": 12345,
+  "cauntryName": "United States",
+  "mobileNum": 1234567890,
+  "addAlliasVal": "Current Address",
+  "phoneNumbers": 
+    {
+      "type": "home",
+      "number": "7383627627"
+    },
+    "age": 24
+  
+}

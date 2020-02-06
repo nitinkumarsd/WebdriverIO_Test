@@ -1,0 +1,295 @@
+{
+  "uid" : "22abdb9e91617495",
+  "name" : "Given I'm on home page",
+  "fullName" : "User Registration: Click on Sign in button and Register User.Given I'm on home page",
+  "historyId" : "97256f60b149dcb6d1aa977ce8801a74",
+  "time" : {
+    "start" : 1580977914543,
+    "stop" : 1580977914562,
+    "duration" : 19
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1580977914545,
+        "stop" : 0,
+        "duration" : -1580977914545
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1580977914548,
+          "stop" : 0,
+          "duration" : -1580977914548
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7a87b523de7d77b2",
+          "name" : "Request",
+          "source" : "7a87b523de7d77b2.json",
+          "type" : "application/json",
+          "size" : 54
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "testClass",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I'm on home page"
+  }, {
+    "name" : "package",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "559d37e115fa3ff5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977752416,
+        "stop" : 1580977752429,
+        "duration" : 13
+      }
+    }, {
+      "uid" : "77825e861126c175",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977555597,
+        "stop" : 1580977555615,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "f479fdb136555799",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977432986,
+        "stop" : 1580977433005,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "704df3071d587963",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977324209,
+        "stop" : 1580977324225,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "45cd4b636c1161e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977214740,
+        "stop" : 1580977214753,
+        "duration" : 13
+      }
+    }, {
+      "uid" : "4edbe317d5be4fea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977146646,
+        "stop" : 1580977146665,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "82d7333c6fdd8802",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977105773,
+        "stop" : 1580977105794,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "174f4cb73ac63bc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977016287,
+        "stop" : 1580977016302,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "2a23ce134f6a423d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580976933781,
+        "stop" : 1580976933802,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "9369fb2fe45e2826",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580976642983,
+        "stop" : 1580976642999,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "449a3cd9a40775a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580976521882,
+        "stop" : 1580976521902,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "1d695ce9134244ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580976365995,
+        "stop" : 1580976366014,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "1c17b0ef12be8d4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580975752726,
+        "stop" : 1580975752740,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "b79bd5bd5e84db10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580972788444,
+        "stop" : 1580972788458,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "8f6f474995379924",
+      "status" : "broken",
+      "statusDetails" : "json is not defined",
+      "time" : {
+        "start" : 1580971122322,
+        "stop" : 1580971122329,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "9a60a3cdef6a4965",
+      "status" : "broken",
+      "statusDetails" : "Cannot parse [{,  \"firstName\": \"Rack's\",,  \"lastName\": \"Jackon\",,  \"gender\": \"man\",,  \"age\": 24,,  \"address\": [{,    \"streetAddress\": \"126\",,    \"city\": \"San Jone\",,    \"state\": \"CA\",,    \"postalCode\": \"394221\",  }],,  \"phoneNumbers\": ,    [{,      \"type\": \"home\",,      \"number\": \"7383627627\",    }],  ,}]",
+      "time" : {
+        "start" : 1580970948285,
+        "stop" : 1580970948299,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "953014a0eaabaddb",
+      "status" : "broken",
+      "statusDetails" : "Cannot parse {,  \"firstName\": \"Rack's\",,  \"lastName\": \"Jackon\",,  \"gender\": \"man\",,  \"age\": 24,,  \"address\": [{,    \"streetAddress\": \"126\",,    \"city\": \"San Jone\",,    \"state\": \"CA\",,    \"postalCode\": \"394221\",  }],,  \"phoneNumbers\": ,    [{,      \"type\": \"home\",,      \"number\": \"7383627627\",    }],  ,}",
+      "time" : {
+        "start" : 1580970918528,
+        "stop" : 1580970918542,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "274663612ef538c6",
+      "status" : "broken",
+      "statusDetails" : "Unexpected token , in JSON at position 1",
+      "time" : {
+        "start" : 1580970702729,
+        "stop" : 1580970702737,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "96126a100d6d9766",
+      "status" : "broken",
+      "statusDetails" : "alert is not defined",
+      "time" : {
+        "start" : 1580970130215,
+        "stop" : 1580970130230,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "cf70aa427e9cadd5",
+      "status" : "broken",
+      "statusDetails" : "XMLHttpRequest is not defined",
+      "time" : {
+        "start" : 1580969566766,
+        "stop" : 1580969566771,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "6dfa15f93fec2665",
+      "status" : "broken",
+      "statusDetails" : "readTextFile is not defined",
+      "time" : {
+        "start" : 1580969527640,
+        "stop" : 1580969527647,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "a716b8a77acbd5bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580962410285,
+        "stop" : 1580962410299,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "e81e0072f0123371",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580961337589,
+        "stop" : 1580961337614,
+        "duration" : 25
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22abdb9e91617495.json",
+  "parameterValues" : [ "chrome" ]
+}

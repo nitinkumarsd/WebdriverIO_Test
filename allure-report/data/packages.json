@@ -1,0 +1,113 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "User Registration: Click on Sign in button and Register User",
+    "children" : [ {
+      "name" : "Given I'm on home page",
+      "uid" : "22abdb9e91617495",
+      "parentUid" : "83350ad4ed7041d8f356531ba95f63b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977914543,
+        "stop" : 1580977914562,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When Click Signin on the landing page",
+      "uid" : "9c2a2be59798f1fd",
+      "parentUid" : "83350ad4ed7041d8f356531ba95f63b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977914562,
+        "stop" : 1580977934368,
+        "duration" : 19806
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Create Account by entering email address",
+      "uid" : "bd17cbcbaa501dab",
+      "parentUid" : "83350ad4ed7041d8f356531ba95f63b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977934368,
+        "stop" : 1580977936232,
+        "duration" : 1864
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Fill personal information",
+      "uid" : "9d67ee8bd1c21b2b",
+      "parentUid" : "83350ad4ed7041d8f356531ba95f63b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977936232,
+        "stop" : 1580977939056,
+        "duration" : 2824
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Fill address",
+      "uid" : "2e738dcef6a71377",
+      "parentUid" : "83350ad4ed7041d8f356531ba95f63b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977939057,
+        "stop" : 1580977940585,
+        "duration" : 1528
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Click Register",
+      "uid" : "d9566b0551e4bcd1",
+      "parentUid" : "83350ad4ed7041d8f356531ba95f63b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977940585,
+        "stop" : 1580977944328,
+        "duration" : 3743
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Validate correct name and surname is displayed on landing screen",
+      "uid" : "2a690f70491ffcba",
+      "parentUid" : "83350ad4ed7041d8f356531ba95f63b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977944329,
+        "stop" : 1580977944375,
+        "duration" : 46
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "3558cacd5cd8c482",
+      "parentUid" : "83350ad4ed7041d8f356531ba95f63b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977944375,
+        "stop" : 1580977944376,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "83350ad4ed7041d8f356531ba95f63b8"
+  } ]
+}

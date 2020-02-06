@@ -1,0 +1,303 @@
+{
+  "uid" : "2a690f70491ffcba",
+  "name" : "Then Validate correct name and surname is displayed on landing screen",
+  "fullName" : "User Registration: Click on Sign in button and Register User.Then Validate correct name and surname is displayed on landing screen",
+  "historyId" : "5a3864daf9b2992eb10b91f745e51709",
+  "time" : {
+    "start" : 1580977944329,
+    "stop" : 1580977944375,
+    "duration" : 46
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1580977944329,
+        "stop" : 1580977944353,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1bb7a349b34038c1",
+        "name" : "Request",
+        "source" : "1bb7a349b34038c1.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "29a8dd3292d4c67e",
+        "name" : "Response",
+        "source" : "29a8dd3292d4c67e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/3f28eddf-d5a4-4c89-bce8-402eb04abce6/text",
+      "time" : {
+        "start" : 1580977944355,
+        "stop" : 1580977944374,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "819f97e725cd55ad",
+        "name" : "Response",
+        "source" : "819f97e725cd55ad.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "testClass",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Validate correct name and surname is displayed on landing screen"
+  }, {
+    "name" : "package",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fa8d9b6e984ecd63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977766987,
+        "stop" : 1580977767040,
+        "duration" : 53
+      }
+    }, {
+      "uid" : "be851298eb1b6cdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977570471,
+        "stop" : 1580977570521,
+        "duration" : 50
+      }
+    }, {
+      "uid" : "6e44e83c459b873a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977449435,
+        "stop" : 1580977449500,
+        "duration" : 65
+      }
+    }, {
+      "uid" : "445390372a7bf863",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977340998,
+        "stop" : 1580977341052,
+        "duration" : 54
+      }
+    }, {
+      "uid" : "263c1c2158968a16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977229923,
+        "stop" : 1580977229975,
+        "duration" : 52
+      }
+    }, {
+      "uid" : "b67953d08ba639d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580977166145,
+        "stop" : 1580977166188,
+        "duration" : 43
+      }
+    }, {
+      "uid" : "58e5d606d13e720a",
+      "status" : "failed",
+      "statusDetails" : "Promise {\n                  <pending>\n                } == 'Nitin Kumar'",
+      "time" : {
+        "start" : 1580977120870,
+        "stop" : 1580977120909,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "df1a020cd63b9028",
+      "status" : "failed",
+      "statusDetails" : "Promise {\n                  <pending>\n                } == 'Nitin Kumar'",
+      "time" : {
+        "start" : 1580977026403,
+        "stop" : 1580977026441,
+        "duration" : 38
+      }
+    }, {
+      "uid" : "842ffe570b293f3b",
+      "status" : "failed",
+      "statusDetails" : "Promise {\n                  <pending>\n                } == 'Nitin Kumar'",
+      "time" : {
+        "start" : 1580976942353,
+        "stop" : 1580976942447,
+        "duration" : 94
+      }
+    }, {
+      "uid" : "7fa2847c6f71a2a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580976657741,
+        "stop" : 1580976657791,
+        "duration" : 50
+      }
+    }, {
+      "uid" : "699ab48dcc9b35ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580976536971,
+        "stop" : 1580976537036,
+        "duration" : 65
+      }
+    }, {
+      "uid" : "3991b0101c57b021",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580976380819,
+        "stop" : 1580976380899,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "fb5a8c20bf249887",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580975768501,
+        "stop" : 1580975768565,
+        "duration" : 64
+      }
+    }, {
+      "uid" : "477b2f8e7ffc4a5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580972803137,
+        "stop" : 1580972803198,
+        "duration" : 61
+      }
+    }, {
+      "uid" : "3d4d10b7dc5b093d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1580971122331,
+        "stop" : 1580971122331,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9c8158db2bde8bab",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1580970948301,
+        "stop" : 1580970948301,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9663ce7409c0cf53",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1580970918544,
+        "stop" : 1580970918544,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "855f88ef8794bd4d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1580970702740,
+        "stop" : 1580970702740,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6563ee30a143b1ac",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1580970130233,
+        "stop" : 1580970130234,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9995c9b0455dc4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1580969566773,
+        "stop" : 1580969566773,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1a1c0dbc9b96f174",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1580969527657,
+        "stop" : 1580969527657,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "370cd10ff92fefb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580962430428,
+        "stop" : 1580962430502,
+        "duration" : 74
+      }
+    }, {
+      "uid" : "3aaf8fe67a4598d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580961352345,
+        "stop" : 1580961352420,
+        "duration" : 75
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2a690f70491ffcba.json",
+  "parameterValues" : [ "chrome" ]
+}

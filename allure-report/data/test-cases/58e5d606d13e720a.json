@@ -1,0 +1,113 @@
+{
+  "uid" : "58e5d606d13e720a",
+  "name" : "Then Validate correct name and surname is displayed on landing screen",
+  "fullName" : "User Registration: Click on Sign in button and Register User.Then Validate correct name and surname is displayed on landing screen",
+  "historyId" : "5a3864daf9b2992eb10b91f745e51709",
+  "time" : {
+    "start" : 1580977120870,
+    "stop" : 1580977120909,
+    "duration" : 39
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Promise {\n                  <pending>\n                } == 'Nitin Kumar'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Promise {\n                  <pending>\n                } == 'Nitin Kumar'\n                    at World.<anonymous> (C:\\WebDrivIoTest\\step-definitions/Signin.js:109:16)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at World.executeAsync (C:\\WebDrivIoTest\\node_modules\\@wdio\\utils\\build\\shim.js:123:12)\n                    at World.testFrameworkFnWrapper (C:\\WebDrivIoTest\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:63:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Promise {\n                  <pending>\n                } == 'Nitin Kumar'",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Promise {\n                  <pending>\n                } == 'Nitin Kumar'\n                    at World.<anonymous> (C:\\WebDrivIoTest\\step-definitions/Signin.js:109:16)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at World.executeAsync (C:\\WebDrivIoTest\\node_modules\\@wdio\\utils\\build\\shim.js:123:12)\n                    at World.testFrameworkFnWrapper (C:\\WebDrivIoTest\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:63:14)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1580977120870,
+        "stop" : 1580977120899,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "824c2d3b572712f6",
+        "name" : "Request",
+        "source" : "824c2d3b572712f6.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "65c2127c1d880218",
+        "name" : "Response",
+        "source" : "65c2127c1d880218.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/140b28f1-18fd-45cf-b3fb-2e481b007749/text",
+      "time" : {
+        "start" : 1580977120907,
+        "stop" : 1580977120909,
+        "duration" : 2
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError [ERR_ASSERTION]: Promise {\n                  <pending>\n                } == 'Nitin Kumar'\n                    at World.<anonymous> (C:\\WebDrivIoTest\\step-definitions/Signin.js:109:16)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at World.executeAsync (C:\\WebDrivIoTest\\node_modules\\@wdio\\utils\\build\\shim.js:123:12)\n                    at World.testFrameworkFnWrapper (C:\\WebDrivIoTest\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:63:14)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "testClass",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Validate correct name and surname is displayed on landing screen"
+  }, {
+    "name" : "package",
+    "value" : "User Registration: Click on Sign in button and Register User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "58e5d606d13e720a.json",
+  "parameterValues" : [ "chrome" ]
+}
