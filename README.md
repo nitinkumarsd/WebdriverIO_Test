@@ -4,7 +4,7 @@ WebdriveIO first project with basic code and BDD - cucumber implementation. Allu
 
 ## Getting Started
 
-Clone the project from "https://github.com/nitinkumarsd/webdriverio.git" on local machine
+Clone the project from "https://github.com/nitinkumarsd/WebdriverIO_Test.git" on local machine
 
 ### Prerequisites
 
